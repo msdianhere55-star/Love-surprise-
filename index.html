@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+    <!-- START SCREEN -->
+    <section id="startScreen" class="screen active">
+        <div class="card">
+            <div class="heart">❤️</div>
+            <h1>I have something for you...</h1>
+            <p>Are you ready?</p>
+
+            <button id="yesBtn">YES ❤️</button>
+        </div>
+    </section>
+
+
+    <!-- PHOTO SCREEN -->
+    <section id="photoScreen" class="screen">
+        <div class="photo-container">
+            <img id="photo" src="assets/photo1.jpg" alt="Memory">
+
+            <div class="photo-number" id="photoNumber">
+                1 / 5
+            </div>
+        </div>
+    </section>
+
+
+    <!-- VIDEO SCREEN -->
+    <section id="videoScreen" class="screen">
+        <video id="myVideo" controls playsinline>
+            <source src="assets/video.mp4" type="video/mp4">
+            Your browser does not support video.
+        </video>
+    </section>
+
+
+    <!-- FINAL SCREEN -->
+    <section id="finalScreen" class="screen">
+        <div class="final-card">
+            <div class="final-heart">❤️</div>
+
+            <p class="small-text">And finally...</p>
+
+            <h1>I LOVE YOU<br>BABE</h1>
+
+            <div class="heart-line">♡ ♥ ♡</div>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+  </html>
